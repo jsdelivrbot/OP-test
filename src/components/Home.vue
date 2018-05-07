@@ -35,6 +35,7 @@
   import Vue from 'vue'
   import Post from '@/components/Post'
   import VueMasonry from 'vue-masonry-css'
+
   Vue.use(VueMasonry)
 
   export default {
@@ -56,18 +57,13 @@
       },
     mounted() {
         this.fetchItems()
-        console.log(this.items)
-        console.log(this.resp)
     }
   }
 
 </script>
 
 <style lang="scss" scoped>
-    $c-primary: #D4EEE2;
-    $c-darken: #2E2633;
-    $c-white: #fff;
-    $c-secondary: #F22D4C;
+  @import '@/assets/scss/settings.scss';
 
     .header {
       display: block;
@@ -122,6 +118,7 @@
     .grid-item-img {
       display: block;
       position: relative;
+      width: 100%;
     }
 
     .grid-item:hover {

@@ -29,8 +29,7 @@ export default {
 
 <style lang="scss" scoped>
 
-  $c-primary: #D4EEE2;
-  $c-darken: #2E2633;
+  @import '@/assets/scss/settings.scss';
 
    #app {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;

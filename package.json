@@ -1,7 +1,7 @@
 {
-  "name": "front",
+  "name": "OP-test",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "Technical test OnePoint",
   "author": "Eleonore VOISIN <evoisin@student.42.fr>",
   "private": true,
   "scripts": {
